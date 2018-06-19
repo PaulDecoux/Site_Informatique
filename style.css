@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+}
+header{
+  background-color: Black;
+}
+#logo_new{
+  margin-left: 552px;
+  margin-top: 8px;
+}
+#Logitech{
+  width: 300px;
+}
+.souris{
+  margin-left: 167px;
+  margin-top: 105px;
+}
+#logo{
+  width: 20px;
+  margin-top: 15px;
+
+}
+footer{
+  position:absolute;
+  bottom:0px;
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 50px;
+
+}
+.icones {
+  margin-left: 43%;
+  display: inline;
+  margin-top: 10px;
+}
