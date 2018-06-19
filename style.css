@@ -12,7 +12,9 @@ header{
 }
 #Logitech{
   width: 300px;
+
 }
+
 .souris{
   margin-left: 167px;
   margin-top: 105px;
@@ -40,23 +42,37 @@ table {
   border: 1px solid Black;
   width: 100%;
 
+
 }
+
 #Logitech1{
   width: 200px;
+  opacity: 0.3;
 
 }
 #Logitech2{
   width: 200px;
+  opacity: 0.3;
 
 }
 #Logitech3{
   width: 200px;
+  opacity: 0.3;
 
 }
-#Logitech_global{
-
+#Logitech1:hover{
+  opacity: inherit;
 }
-
+#Logitech2:hover{
+  opacity: inherit;
+}
+#Logitech3:hover{
+  opacity: inherit;
+}
 td{
   width: 30%;
+  opacity: 0.3;
+}
+td:hover{
+  opacity:inherit;
 }
