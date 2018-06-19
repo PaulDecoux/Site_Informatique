@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0;
+  height: 100vh;
 }
 header{
   background-color: Black;
@@ -22,7 +23,7 @@ header{
 
 }
 footer{
-  position:absolute;
+  position:relative;
   bottom:0px;
   width: 100%;
   background-color: #f2f2f2;
@@ -33,4 +34,29 @@ footer{
   margin-left: 43%;
   display: inline;
   margin-top: 10px;
+}
+
+table {
+  border: 1px solid Black;
+  width: 100%;
+
+}
+#Logitech1{
+  width: 200px;
+
+}
+#Logitech2{
+  width: 200px;
+
+}
+#Logitech3{
+  width: 200px;
+
+}
+#Logitech_global{
+
+}
+
+td{
+  width: 30%;
 }
