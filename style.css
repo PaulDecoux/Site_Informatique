@@ -24,8 +24,8 @@ header{
   margin-top: 15px;
 
 }
-footer{
-  position:relative;
+#footer1{
+  position:absolute;
   bottom:0px;
   width: 100%;
   background-color: #f2f2f2;
@@ -38,41 +38,114 @@ footer{
   margin-top: 10px;
 }
 
-table {
-  border: 1px solid Black;
-  width: 100%;
 
-
-}
 
 #Logitech1{
   width: 200px;
-  opacity: 0.3;
+  margin-left: 60px
+
 
 }
 #Logitech2{
   width: 200px;
-  opacity: 0.3;
+  margin-left: 60px;
+
 
 }
 #Logitech3{
   width: 200px;
-  opacity: 0.3;
+  margin-left: 95px;
+
 
 }
-#Logitech1:hover{
-  opacity: inherit;
+
+
+#footer{
+  position: inherit;
+  bottom:0px;
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 50px;
+
 }
-#Logitech2:hover{
-  opacity: inherit;
+nav{
+  background-color: #333333;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
-#Logitech3:hover{
-  opacity: inherit;
+nav > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
-td{
-  width: 30%;
+
+.souri-1{
   opacity: 0.3;
 }
-td:hover{
-  opacity:inherit;
+.souri-2{
+  margin-left: 70px;
+  opacity: 0.3;
+}
+
+.souri-3{
+  margin-left: 95px;
+  opacity: 0.3;
+}
+.souri-1:hover{
+  opacity: inherit;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  padding: 8px;
+}
+.souri-2:hover{
+  opacity: inherit;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  padding: 8px;
+}
+.souri-3:hover{
+  opacity: inherit;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  padding: 8px;
+}
+.Global{
+  display: -moz-grid-line;
+  margin-left: 4%;
+  margin-top: 50px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+h1{
+  text-align: center;
+}
+@media (max-width: 640px) {
+#logo_new
+{
+  margin-left: 20%;
+}
+footer{
+margin-bottom: 0px;
+}
+.souris{
+  margin-left: 0px;
+}
+footer{
+  display: none;
+}
+header{
+  width: 100%;
+}
+table,
+ tbody,
+ tr,
+ td {
+   display: block;
+   width: auto!important;
+   /* parceque tu as mis des style inline grrr */
+ }
 }
